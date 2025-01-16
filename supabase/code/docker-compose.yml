@@ -317,7 +317,7 @@ services:
       - /home/deno/functions/main
 
   analytics:
-    image: supabase/logflare:1.4.0
+    image: supabase/logflare:1.8.9
     healthcheck:
       test: [ "CMD", "curl", "http://localhost:4000/health" ]
       timeout: 5s
